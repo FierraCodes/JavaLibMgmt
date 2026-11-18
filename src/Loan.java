@@ -7,7 +7,7 @@ public class Loan {
     private Date checkoutDate;
     private Date dueDate;
     private Date returnDate;
-    
+
     public int getLoadID() {
         return loadID;
     }
@@ -46,6 +46,6 @@ public class Loan {
     }
 
     public void newLoan(Book book, Member memberID) {
-        
+
     }
 }

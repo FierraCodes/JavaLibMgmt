@@ -6,7 +6,7 @@ public class Book {
     private String publisher;
     private int year;
     private Boolean isAvailable;
-    
+
     public int getBookID() {
         return bookID;
     }
@@ -16,8 +16,8 @@ public class Book {
     public int getISBN() {
         return ISBN;
     }
-    public void setISBN(int iSBN) {
-        ISBN = iSBN;
+    public void setISBN(int ISBN) {
+        this.ISBN = ISBN;
     }
     public String getTitle() {
         return title;
